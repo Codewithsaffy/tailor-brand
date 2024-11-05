@@ -1,0 +1,184 @@
+{
+  "Navigation": {
+    "navlink": [
+      {
+        "name": "Services",
+        "link": "/#services"
+      },
+      {
+        "name": "Gallery",
+        "link": "/gallery"
+      },
+      {
+        "name": "Pricing",
+        "link": "/pricing"
+      },
+      {
+        "name": "Testimonials",
+        "link": "/#testimonials"
+      },
+      {
+        "name": "Contact",
+        "link": "/contact"
+      },
+      {
+        "name": "FAQs",
+        "link": "/faqs"
+      }
+    ]
+  },
+  "HeroSection": {
+    "title": "Your Style, Our Craft",
+    "para": "Step into elegance with our custom tailoring services! We specialize in creating stylish and comfortable outfits just for you. Whether it's for a special occasion or everyday wear, we bring your vision to life with love and precision. Discover the perfect fit today!"
+  },
+  "AboutSection": {
+    "title": "Crafting Elegance, Stitching Memories",
+    "content": "At Dilkush Design, we specialize in transforming fabric into beautiful attire that speaks to tradition and style. Serving the women of Orangi Town, we blend modern techniques with classic craftsmanship to create dresses that celebrate your unique taste. Every stitch tells a story, and our passion is to make each piece as memorable as the occasion it’s worn for"
+  },
+  "ServiceSection":{
+    "heading":"Services",
+   "cards":  [
+
+    {
+      "title": "Ladies’ Dress",
+      "des": "Beautifully tailored dresses that showcase your personality, perfect for special occasions and events.",
+      "image": "/images/services/ser1.jpeg"
+    },
+    {
+      "title": "Children’s Dress",
+      "des": "Comfortable and beautiful outfits made especially for children for every special occasion.",
+      "image": "/images/services/ser2.jpeg"
+    },
+    {
+      "title": "Ready-to-Wear Clothes",
+      "des": "A collection of ready-to-wear pieces designed for comfort, elegance, and a perfect fit.",
+      "image": "/images/services/ser3.jpeg"
+    }
+  ]},
+  "Testimonials": [
+    {
+      "name": "Aisha M.",
+      "message": "I wore the custom dress for my sister's wedding, and I received so many compliments! The fit was perfect, and I felt beautiful all night long.",
+      "rating": 5
+    },
+    {
+      "name": "Sara K.",
+      "message": " I absolutely love my new outfit! The craftsmanship is outstanding, and it was delivered on time.",
+      "rating": 5
+    },
+    {
+      "name": "Fatima R.",
+      "message": "Here’s my daughter in her first fitted dress! We couldn’t be happier with how it turned out.",
+      "rating": 5
+    },
+    {
+      "name": "Sofia T.",
+      "message": "I never knew I could find a dress that fits so perfectly! Thank you for making my special day even more memorable.",
+      "rating": 5
+    },
+    {
+      "name": "KareenaS",
+      "message": "Thank you @DilkushDesigns for making my dream dress! 💖",
+      "rating": 5
+    },
+    {
+      "name": "Hassan L.",
+      "message": "The kids’ outfits we ordered were a hit at the family reunion! They were comfortable and stylish.",
+      "rating": 5
+    },
+    {
+      "name": "Nadia S.",
+      "message": "As a busy mom, I appreciate how easy it is to find stylish, ready-to-wear clothes for my kids!",
+      "rating": 5
+    }
+  ],
+  "Footer": {
+    "logoTitle": "Dilkush Design",
+    "description": "Bringing your fashion dreams to life, one stitch at a time. For personalized, beautifully crafted attire, get in touch with us. We’re here to make you look your best!",
+    "sendMessageTitle": "Send a Message",
+    "sendMessagePlaceholder": "Type your message here...",
+    "sendMessageNote": "We’ll respond within 24 hours to answer any inquiries or to discuss your design needs.",
+    "stayConnectedTitle": "Stay Connected",
+    "whatsapp": "WhatsApp",
+    "phone": "Phone",
+    "instagram": "Instagram",
+    "footerBottomText1": "© 2024 Dilkush Design. All rights reserved.",
+    "footerBottomText2": "Crafted with care in Orangi Town, Karachi, Pakistan."
+  },
+    "PricingPage": {
+      "header": "Our Pricing Plans",
+      "subheader": "Choose the plan that fits your needs best.",
+      "mostPopular": "Most Popular",
+      "choosePlan": "Choose Plan",
+      "plans":[
+         {
+          "title": "Basic",
+          "price": "Rs 1,500",
+          "description": "Ideal for basic tailoring needs.",
+          "features": [
+            "Standard stitching",
+            "1-week delivery",
+            "Free alterations within 7 days"
+          ]
+        },
+        {
+          "title": "Premium",
+          "price": "Rs 3,500",
+          "description": "Perfect for custom designs.",
+          "features": [
+            "Custom designs",
+            "5-day delivery",
+            "Priority support",
+            "Free alterations within 14 days"
+          ],
+          "isPopular": true
+        },
+        {
+          "title": "Luxury",
+          "price": "Rs 6,000",
+          "description": "Exclusive tailoring experience.",
+          "features": [
+            "Premium fabrics",
+            "3-day delivery",
+            "Dedicated tailor consultation",
+            "Unlimited free alterations within 30 days"
+          ]
+        }
+      ]
+    },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "questions": [
+          {
+            "question": "What services do you offer?",
+            "answer": "We offer custom tailoring, alterations, and repairs for all types of garments. We also provide style consultations to help you find the perfect fit."
+          },
+          {
+            "question": "How long does it take to tailor a suit?",
+            "answer": "Typically, a custom suit takes between two to three weeks to complete, depending on fabric availability and customization needs. We can provide faster turnaround times upon request."
+          },
+          {
+            "question": "What fabrics do you use?",
+            "answer": "We use high-quality fabrics such as wool, cotton, linen, and silk sourced from trusted suppliers. We also offer eco-friendly fabric options upon request."
+          },
+          {
+            "question": "How do I schedule a fitting appointment?",
+            "answer": "You can schedule a fitting by calling us at +92 345 3155319 or emailing us at codewithsaffy@gmail.com. Appointments can also be booked through our website."
+          },
+          {
+            "question": "Do you offer online consultations?",
+            "answer": "Yes, we provide virtual consultations via video calls. Simply book an appointment, and our tailor will assist you remotely with all your tailoring needs."
+          },
+          {
+            "question": "Where is your store located?",
+            "answer": "We are located near Islamic City Model School, Orangi Town, Karachi."
+          },
+          {
+            "question": "What are your operating hours?",
+            "answer": "Our store is open from Monday to Saturday, 10 AM to 8 PM. We are closed on Sundays."
+          }
+        ]
+      }
+    
+  
+}

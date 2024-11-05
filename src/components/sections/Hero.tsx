@@ -20,7 +20,7 @@ const Hero = () => {
         </Revel>
         <Revel>
         <Button className="bg-[#f9b53a] hover:bg-[#f7a52c] text-[#2a4d00] transition duration-200">
-          <Link href={"/contact"} className="">
+          <Link href={"contact"} className="">
             Order Now
           </Link>
         </Button>

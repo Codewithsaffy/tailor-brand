@@ -1,8 +1,7 @@
-"use client";
+import type { Metadata } from "next";
 
-import { useState } from "react";
-import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 import { useTranslations } from "next-intl";
+import { Accordion } from "./Accordion";
 
 export default function FAQPage() {
   const t = useTranslations("faq");
@@ -10,12 +9,11 @@ export default function FAQPage() {
 
   return (
     <div className="min-h-screen flex flex-col items-center bg-gray-50 py-12 px-6 sm:px-20 lg:px-40 text-gray-900">
-
       <h1 className="text-3xl font-bold mb-8 text-center text-gray-800">
         {t("title")}
       </h1>
 
-<div className="w-full max-w-2xl space-y-4">
+      <div className="w-full max-w-2xl space-y-4">
         {faqs.map((faq: any, index: any) => (
           <Accordion key={index} question={faq.question}>
             {faq.answer}
@@ -26,30 +24,10 @@ export default function FAQPage() {
   );
 }
 
-function Accordion({
-  question,
-  children,
-}: {
-  question: string;
-  children: React.ReactNode;
-}) {
-  const [isOpen, setIsOpen] = useState(false);
-
-  return (
-    <div className="bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden transition-all duration-300">
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="w-full flex items-center justify-between p-4 text-left text-gray-800 font-medium hover:bg-gray-100 transition-colors duration-300"
-      >
-        <span>{question}</span>
-        <span className="text-gray-600">
-          {isOpen ? <FiChevronUp size={20} /> : <FiChevronDown size={20} />}
-        </span>
-      </button>
-
-      {isOpen && (
-        <div className="px-4 pb-4 text-sm text-gray-600">{children}</div>
-      )}
-    </div>
-  );
-}
+export const metadata: Metadata = {
+  title: "Dilkush Design FAQs - Karachi Tailoring & Custom Silai Sawalat",
+  description:
+    "Dilkush Design ke FAQs mein Karachi mein premium silai, khawateen ke liye custom tailoring, design options aur fitting ke hawale se aapke sawalat ke jawabat hain. Hamare silai aur designing services ke mutaliq tafseelat hasil karein.",
+  keywords:
+    "Dilkush Design FAQs, Karachi silai sawalat, tailoring questions, khawateen silai Karachi, custom silai, Karachi tailoring guide, premium tailoring Karachi, silai aur designing maloomat, Orangi Town tailoring services",
+};

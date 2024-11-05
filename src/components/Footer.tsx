@@ -7,7 +7,6 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
-import Revel from "@/lib/motion/reavel";
 
 export default function Footer() {
   const { toast } = useToast();
@@ -44,7 +43,6 @@ export default function Footer() {
   };
 
   return (
-    <Revel>
       <footer className="w-full bg-[#143600] text-[#FAD4C0] py-10 px-6 md:px-20 lg:px-28">
         <div className="max-w-7xl mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 items-center">
           {/* Logo and Description */}
@@ -137,6 +135,5 @@ export default function Footer() {
           <p className="mt-2">{t("footerBottomText2")}</p>
         </div>
       </footer>
-    </Revel>
   );
 }

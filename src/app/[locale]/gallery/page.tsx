@@ -1,5 +1,5 @@
-"use client";
-
+import { useTranslations } from "next-intl";
+import type { Metadata } from "next";
 import Image from "next/image";
 import React from "react";
 
@@ -83,4 +83,12 @@ export default function GalleryPage() {
       </div>
     </section>
   );
+}
+
+
+
+export const metadata: Metadata = {
+  title: "Dilkush Design Gallery - Karachi ki Khawateen ke liye Silai aur Designs",
+  description: "Dilkush Design ki gallery mein Karachi mein khawateen ke liye tayar kiye gaye premium silai aur custom designs dekhain. Hamare modern aur riwayati designs ke samples aur mukhtalif fitting styles ko dekhein aur apne libas ka style select karein.",
+  keywords: "Dilkush Design gallery, Karachi tailoring gallery, khawateen designs, custom silai Karachi, modern aur riwayati libas, Karachi silai examples, tailoring designs Karachi, premium silai samples",
 }

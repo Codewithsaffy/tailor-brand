@@ -178,7 +178,31 @@
             "answer": "Our store is open from Monday to Saturday, 10 AM to 8 PM. We are closed on Sundays."
           }
         ]
-      }
+      },
+        "mainMetaData": {
+          "title": "Dilkush Design - Premium Tailoring for Women in Karachi",
+          "description": "Experience premium, custom-tailored clothing at Dilkush Design in Orangi Town, Karachi. Specializing in women's garments, we offer expert stitching, modern and traditional designs, and personalized fittings to make every outfit uniquely yours. Visit us for the perfect blend of style and comfort."
+        },
+      "contactMetaData": {
+    "title": "Contact Dilkush Design - Expert Tailoring Services in Karachi",
+    "description": "Get in touch with Dilkush Design in Orangi Town, Karachi for expert women's tailoring services. Reach us to discuss your clothing needs, schedule a fitting, or ask about our design options. We're here to bring your unique style to life with our skilled stitching and personalized service."
+  },
+  "faqMetaData": {
+    "title": "FAQs - Dilkush Design Tailoring Services in Karachi",
+    "description": "Find answers to common questions about Dilkush Design's tailoring services. Learn more about our stitching process, customization options, delivery times, and pricing for ladies' clothing in Karachi. We’re here to help with any inquiries about your tailoring needs."
+  },
+  "galleryMetaData": {
+    "title": "Gallery - Dilkush Design Tailored Clothing in Karachi",
+    "description": "Explore our gallery showcasing beautifully tailored ladies' clothing by Dilkush Design in Karachi. Discover a variety of styles, intricate stitching, and custom designs crafted to perfection. View our work to inspire your next outfit!"
+  },
+  "pricingMetaData": {
+    "title": "Affordable Tailoring Services - Dilkush Design Pricing in Karachi",
+    "description": "Discover affordable and transparent pricing for ladies' tailoring at Dilkush Design, Karachi. Our pricing page provides clear details on custom stitching, alterations, and unique design options to fit your style and budget."
+  },
+  "homeMetaData": {
+    "title": "Dilkush Design - Expert Ladies' Tailoring in Karachi",
+    "description": "Welcome to Dilkush Design, your trusted destination for expert ladies' tailoring in Karachi. Discover our custom stitching, design, and alteration services."
+  }
     
   
 }

@@ -1,5 +1,4 @@
-"use client";
-
+import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { FiCheckCircle } from "react-icons/fi";
 
@@ -86,12 +85,17 @@ export default function PricingPage() {
                 ))}
               </ul>
 
-              <button className="w-full py-2 bg-[#f9b53a] text-[#1a2a00] font-semibold rounded-lg hover:bg-[#f7a52c] transition-colors duration-300">
-                Choose Plan
-              </button>
+
             </div>
         ))}
       </div>
     </section>
   );
+}
+
+
+export const metadata: Metadata = {
+  title: "Dilkush Design Pricing - Karachi ke Liye Premium Silai aur Tailoring Rates",
+  description: "Dilkush Design ki pricing page par Karachi mein khawateen ke liye premium silai aur custom tailoring ke rates dekhein. Hamare mukhtalif design options aur personal fitting ke liye munasib qeematain jaanen. Aaj hi apne libas ka tajurba hasil karein.",
+  keywords: "Dilkush Design pricing, Karachi silai rates, custom tailoring prices, khawateen silai qeemat, premium tailoring Karachi, tailoring services rates, Orangi Town pricing, silai aur designing ki qeemat",
 }

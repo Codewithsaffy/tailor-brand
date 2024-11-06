@@ -20,7 +20,7 @@ export function ImageCarousel() {
   return (
     <Carousel
       plugins={[plugin.current]}
-      className="rounded-xl bg-green-600 border-none h-full w-screen overflow-hidden lg:h-[400px] lg:w-[400px]"
+      className="rounded-none md:rounded-xl bg-green-600 border-none h-full w-screen overflow-hidden lg:h-[400px] lg:w-[400px]"
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >

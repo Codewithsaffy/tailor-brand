@@ -34,7 +34,7 @@ export default function Header({ lang }: { lang: string }) {
             Dilkush Design
           </p>
         </Link>
-        <ul className="hidden md:flex items-center space-x-4">
+        <ul className="hidden lg:flex items-center space-x-4">
           {navLinks.map((item: any, index: any) => (
             <li key={index}>
               <Link
@@ -59,7 +59,7 @@ export default function Header({ lang }: { lang: string }) {
         </Link>
 
         {/* Mobile Menu */}
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <Sheet>
             <SheetTrigger>
               <FiAlignRight className="w-6 h-6 sm:w-8 sm:h-8 text-[#FAD4C0]" />

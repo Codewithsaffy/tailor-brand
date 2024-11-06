@@ -8,31 +8,37 @@ import Order from "../button/Order";
 
 const Hero = () => {
   const t = useTranslations("HeroSection");
+
   return (
-    <section className="min-h-[calc(100vh-56px)] overflow-hidden  bg-gradient-to-r from-[#2a4d00] to-[#1a2a00] relative px-4 sm:px-24 w-screen text-white  gap-6  pb-12 flex flex-col-reverse lg:flex-row justify-between items-center">
-      <div className="space-y-4 w-full lg:w-1/2  ">
+    <section className="min-h-[calc(100vh-56px)] overflow-hidden bg-gradient-to-r from-[#2a4d00] to-[#1a2a00] relative px-4 sm:px-8 md:px-16 lg:px-24 w-full text-white gap-4 sm:gap-6 pb-6 sm:pb-8 lg:pb-12 flex flex-col-reverse lg:flex-row justify-center lg:justify-between items-center">
+      {/* Text Container */}
+      <div className="space-y-6 h-1/2 sm:h-auto w-full lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left">
         <Revel>
-          <h1 className="text-3xl sm:text-5xl text-center md:text-start  text-[#F2F2F2] font-bold">
+          <h1 className="text-2xl sm:text-4xl lg:text-5xl text-[#F2F2F2] font-bold">
             {t("title")}
           </h1>
         </Revel>
         <Revel>
-          <p className="text-[#D1D5DB] text-lg">{t("para")}</p>
+          <p className="text-[#D1D5DB] text-base sm:text-lg">{t("para")}</p>
         </Revel>
         <Revel>
-          <Order />
+          <div className="flex justify-center lg:justify-start">
+            <Order />
+          </div>
         </Revel>
       </div>
 
+      {/* Image/Carousel Container */}
       <Revel>
-        <div className="relative h-1/2 sm:h-full flex justify-center ">
+        <div className="relative h-1/2 sm:h-full lg:h-full w-full flex justify-center items-center">
+          {/* Uncomment and adjust the Image component if needed */}
           {/* <Image
-          className="rounded-xl shadow-lg"
-          src={"/images/herosection/1.webp"}
-          alt="hero"
-          width={400}
-          height={400}
-        /> */}
+            className="rounded-xl shadow-lg"
+            src={"/images/herosection/1.webp"}
+            alt="hero"
+            width={400}
+            height={400}
+          /> */}
           <ImageCarousel />
         </div>
       </Revel>

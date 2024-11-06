@@ -10,7 +10,7 @@ const Hero = () => {
   const t = useTranslations("HeroSection");
 
   return (
-    <section className="min-h-[calc(100vh-56px)] overflow-hidden bg-gradient-to-r from-[#2a4d00] to-[#1a2a00] relative px-4 sm:px-8 md:px-16 lg:px-24 w-full text-white gap-8 pb-6 sm:pb-8 lg:pb-12 flex flex-col-reverse lg:flex-row  justify-end items-center">
+    <section className="min-h-[calc(100vh-56px)] overflow-hidden bg-gradient-to-r from-[#2a4d00] to-[#1a2a00] relative px-4 sm:px-8 md:px-16 lg:px-24 w-full text-white gap-8 pb-6 sm:pb-8 lg:pb-12 flex flex-col-reverse lg:flex-row  md:justify-between justify-end  items-center">
       {/* Text Container */}
       <div className="space-y-6 h-1/2 sm:h-auto w-full lg:w-1/2 flex flex-col items-center lg:items-start justify-center text-center lg:text-left">
         <Revel>

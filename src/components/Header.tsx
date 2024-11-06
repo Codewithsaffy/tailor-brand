@@ -12,15 +12,22 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import LangChange from "./button/LangChange";
+import { useEffect, useState } from "react";
 
 export default function Header({ lang }: { lang: string }) {
   const t = useTranslations("Navigation");
   const navLinks = t.raw("navlink");
-  const pathname = usePathname(); // Get the current path
-  console.log(pathname);
-  console.log(navLinks);
+  const pathname = usePathname();
+
+  const [isPulsing, setIsPulsing] = useState(true);
+
+  // Remove pulsing effect after the first click
+  const handleMenuClick = () => {
+    setIsPulsing(false);
+  };
+
   return (
-    <header className="flex sticky top-0 z-10 justify-between  items-center w-full h-14 px-4 sm:px-24 bg-[#143600]">
+    <header className="flex sticky top-0 z-10 justify-between items-center w-full h-14 px-4 sm:px-24 bg-[#143600]">
       <nav className="flex items-center space-x-4 sm:space-x-8">
         <Link href="/" className="flex items-center space-x-2">
           <Image
@@ -61,8 +68,12 @@ export default function Header({ lang }: { lang: string }) {
         {/* Mobile Menu */}
         <div className="lg:hidden">
           <Sheet>
-            <SheetTrigger>
-              <FiAlignRight className="w-6 h-6 sm:w-8 sm:h-8 text-[#FAD4C0]" />
+            <SheetTrigger onClick={handleMenuClick}>
+              <FiAlignRight
+                className={`w-6 h-6 sm:w-8 sm:h-8 text-[#FAD4C0] ${
+                  isPulsing ? "animate-pulse-menu" : ""
+                }`}
+              />
             </SheetTrigger>
             <SheetContent className="p-4 bg-[#143600] text-[#FAD4C0]">
               <SheetHeader>
@@ -85,9 +96,11 @@ export default function Header({ lang }: { lang: string }) {
                     </li>
                   ))}
                 </ul>
-                <Button className="bg-[#FAD4C0] text-[#143600] hover:bg-[#D4AF37] transition duration-200 px-4 py-2">
-                  Book Now
-                </Button>
+                <Link href={"https://wa.me/923453155319"} target="_blank">
+                  <Button className="bg-[#FAD4C0] text-[#143600] hover:bg-[#D4AF37] transition duration-200 px-3 py-1">
+                    Book Now
+                  </Button>
+                </Link>
               </div>
             </SheetContent>
           </Sheet>

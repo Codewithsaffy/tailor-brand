@@ -1,8 +1,5 @@
 import { useTranslations } from "next-intl";
-import React from "react";
-import { Button } from "../ui/button";
 import { ImageCarousel } from "../cusom/crausel";
-import Link from "next/link";
 import Revel from "@/lib/motion/reavel";
 import Order from "../button/Order";
 

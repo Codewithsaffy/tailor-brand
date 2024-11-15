@@ -42,7 +42,6 @@ export default function PricingPage() {
   // ];
   const t = useTranslations("PricingPage");
   const pricingPlans = t.raw("plans");
-  //  new Promise((resolve) => setTimeout(resolve, 5000));
   return (
     <section className="min-h-[calc(100vh-56px)] bg-gradient-to-b from-[#2a4d00] to-[#1a2a00] py-12 px-4 sm:px-8">
       <div className="text-center text-white mb-8">
